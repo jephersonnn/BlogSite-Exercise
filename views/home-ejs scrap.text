@@ -1,0 +1,6 @@
+
+for Loop for home.ejs to render posts
+<% for (let i=0; i < renderPosts.length; i++) { %>
+  <h2> <%=renderPosts[i].title %> </h2>
+  <p> <%=renderPosts[i].body %> </p>
+<% } %>
